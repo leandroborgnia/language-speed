@@ -1,0 +1,6 @@
+string_build_split_parse[to_chars/from_chars],5000000,0.0535,10.705,12499997500000
+hashmap_insert_lookup[unordered_map+reserve],5000000,1.1556,231.115,2500000
+hashmap_insert_lookup[open addressing],5000000,0.1877,37.538,2500000
+alloc_small_objects[by value, no heap/object],10000000,0.0697,6.968,149999985000000
+io_write_lines[to_chars + fwrite],5000000,0.0890,17.807,5000000
+io_read_parse_lines[read whole file + from_chars],5000000,0.0692,13.846,87499982500000

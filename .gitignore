@@ -1,0 +1,22 @@
+# Environments and editors
+.claude/
+.venv/
+
+# Build artifacts and binaries
+build/
+*.exe
+*.obj
+*.lib
+*.exp
+*.pdb
+*.class
+*.pyd
+
+# Cython generated C files
+bench2/python/cy_bench.c
+
+# Python cache
+__pycache__/
+
+# Benchmark data files
+*.txt
