@@ -8,7 +8,7 @@
 
 A reproducible, single-threaded performance benchmark comparing **C++**, **Java**, **Python (Numba JIT & Cython)**, and **natively compiled T-SQL stored procedures** (In-Memory OLTP). By implementing identical algorithms with strictly verified checksums across all environments, this suite measures execution efficiency from tight CPU loops (integer arithmetic, floating-point series, branching, trigonometry) to real-world memory structures, strings, sorting, and I/O.
 
-> **Hardware & Environment:** Intel Core Ultra 7 265K (8 Lion Cove P-cores pinned, mask `0xC03C3`), Windows 11 Pro, MSVC 2019 `/O2 /GL /fp:precise`, OpenJDK 21.0.9 HotSpot (`-Xmx8g`), CPython 3.14 + Numba 0.68 / Cython 3.3, Microsoft SQL Server 2025 (Windows RTM & Docker Linux CU9 on WSL2).
+> **Hardware & Environment:** Intel Core Ultra 7 265K (8 Lion Cove P-cores pinned, mask `0xC03C3`), Windows 11 Pro, MSVC 2019 `/O2 /GL /fp:precise`, Oracle Java SE 21.0.9 LTS, HotSpot JVM (`-Xmx8g`), CPython 3.14 + Numba 0.68 / Cython 3.3, Microsoft SQL Server 2025 (Windows RTM & Docker Linux CU9 on WSL2).
 
 ---
 
